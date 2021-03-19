@@ -1,0 +1,113 @@
+# My first code in HTML and CSS
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      p {
+        text-align: center;
+      }
+      ul {
+        list-style: none;
+        text-align: center;
+        padding: 0;
+      }
+      li {
+        padding: 30px;
+        margin: 15px;
+        display: inline;
+      }
+      a {
+        text-decoration: none;
+      }
+
+      img {
+        display: block;
+        margin: 0 auto;
+      }
+
+      .change-blue {
+        color: blue;
+      }
+      .change-red {
+        color: red;
+      }
+      .change-green {
+        color: green;
+      }
+      h1 {
+        color: #885df1;
+        font-size: 48px;
+        text-decoration: underline;
+        font-weight: bolder;
+        text-align: center;
+      }
+      h2 {
+        text-align: center;
+        color: #272044;
+      }
+      button {
+        transition: all 150ms ease;
+        display: block;
+        font-size: 16px;
+        margin: 50px auto;
+        color: violet;
+        font-weight: lighter;
+        padding: 15px 20px;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+        border-radius: 40px;
+        border: 1px solid #7c52ef;
+      }
+      button:hover {
+        color: wheat;
+        background: #7c52ef;
+        cursor: pointer;
+      }
+
+      body {
+        background-color: #f6f2fe;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>SheCodes</h1>
+    <h2>Coding Workshop</h2>
+    <button>Apply now</button>
+
+    <ul>
+      <li>
+        <a
+          href="https://www.shecodes.io/students"
+          target="_blank"
+          class="change-blue"
+          >Coders
+        </a>
+      </li>
+      <li>
+        <a
+          href="https://www.shecodes.io/workshops"
+          target="_blank"
+          class="change-red"
+          >Courses
+        </a>
+      </li>
+      <li>
+        <a
+          href="https://www.shecodes.io/stories "
+          target="_blank"
+          class="change-green"
+          >Stories
+        </a>
+      </li>
+    </ul>
+    <hr />
+    <p><strong> More Info </strong></p>
+    <img
+      src="https://image.shutterstock.com/image-photo/young-woman-working-computer-table-600w-753780223.jpg"
+    />
+  </body>
+</html>
