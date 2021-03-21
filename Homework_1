@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=>, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      h1 {
+        text-align: center;
+      }
+      h2 {
+        text-align: center;
+        color: #1a64d6;
+        font-family: sans-serif;
+      }
+      h3 {
+        text-align: center;
+        transition: all 150ms ease;
+        padding: 10px 0;
+        max-width: 400px;
+        font-family: sans-serif;
+
+        border-radius: 10px;
+        display: block;
+        margin: 0 auto;
+      }
+
+      button {
+        align-items: center;
+        color: white;
+        transition: all 150ms ease;
+        display: block;
+        font-size: 16px;
+        margin: 50px auto;
+        font-weight: lighter;
+        padding: 17px 20px;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+        border-radius: 40px;
+        border: 1px solid #1a64d6;
+        background-color: #1a64d6;
+      }
+      button:hover {
+        color: #1a64d6;
+        background: white;
+        cursor: pointer;
+      }
+      h3:hover {
+        background: #fefbef;
+      }
+
+      p {
+        text-align: center;
+        font-family: monospace;
+        color: #4d4d4d;
+        font-size: large;
+      }
+      .color_text {
+        color: black;
+      }
+      .style_color {
+        font-family: monospace;
+        color: #4d4d4d;
+      }
+      .lighter {
+        font-weight: lighter;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>🌤</h1>
+    <h2>Currently 21° in Tokyo</h2>
+    <h2>
+      <span class="color_text"><span class="lighter">13°</span> / 23°</span>
+    </h2>
+    <br />
+    <h3>
+      🌧Tomorrow <br /><br /><span class="style_color"
+        ><span class="lighter">10°</span> / 22°</span
+      >
+    </h3>
+    <br />
+
+    <h3>
+      🌥 Saturday <br /><br /><span class="style_color"
+        ><span class="lighter">15°</span> / 17°</span
+      >
+    </h3>
+    <br />
+
+    <h3>
+      ☀️ Sunday <br /><br /><span class="style_color"
+        ><span class="lighter">25°</span> / 28°</span
+      >
+    </h3>
+
+    <button>Change city</button>
+    <p>Coded by Ainazik Kamaldinova</p>
+  </body>
+</html>
