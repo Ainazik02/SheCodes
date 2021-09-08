@@ -1,0 +1,13 @@
+under title: 
+
+<link rel="shortcut icon" href ="name of the file. ico">
+
+- metadata fro searching key work\ds while searching
+- <sub>- subscript tag
+- &copy;—will show 'Copy" sign
+- <class> can be same for several elements, but <id> can be unique
+- #ff0000-red(full-00-00) with method red,green, blue
+- **CSS pseudo classes**: Use in your site, when clicking to a link the color will be changed, and the same when you visited: generally it is from blue to purple.
+- We can identify a rules important
+- text-shadow: 4px,4px;(x ,y coordinator)(thickness, color of the shadow)
+- float:left, right etc (move sth along with sth)
