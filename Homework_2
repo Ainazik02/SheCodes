@@ -98,9 +98,9 @@
     </ul>
 
     <button>Change city</button>
-    <p>Coded by Matt Delac</p>
+    <p>Coded by Ainazik Kamaldinova</p>
     <script>
-      function Know_Weather() {
+      function knowWeather() {
         let city = prompt("What city do you live in?");
         let temp = prompt("What temperature is it outside?");
         let title = document.querySelector("h1");
@@ -110,8 +110,8 @@
           title.innerHTML = "😄<br />Currently " + temp + "°C in " + city;
         }
       }
-      let Another_City = document.querySelector("button");
-      Another_City.addEventListener("click", Know_Weather);
+      let anotherCity = document.querySelector("button");
+      anotherCity.addEventListener("click", knowWeather);
     </script>
   </body>
 </html>
